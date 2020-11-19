@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
+
+nav div {
+  width: 33%;
+  text-align: center;
+  padding: 20px;
+}
+
+nav div:hover {
+  background-color: aquamarine;
+}
+
+.students-container{
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.student-card {
+  width: 250px;
+  height: 550px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.student-card img{
+  width: 200px;
+  height: 200px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 25%;
+  width: 40%;
+  height: 600px;
+  background-color: bisque;
+  padding: 40px;
+  box-shadow: 50px 50px 280px 80px rgba(0,0,0,0.4);
+}
